@@ -1,0 +1,401 @@
+$dark-color: black;
+$primary-color: lightblue; 
+$color: white;
+$color-1: lightgreen;
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  font-family:'Dosis';
+}
+image
+{
+  width: 100%;
+}
+ul
+{
+  list-style: none;
+}
+.home
+{
+  background: url(./images/black-road-bike-leaning-on-red-blue-and-white-wing-graffiti-545008.jpg)center center/cover;
+  height: 100vh;
+}
+.main-navigation ul
+{
+  height: 80px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  a
+  {
+    font-size: 25px;
+  }
+}
+a
+{
+  color: $dark-color;
+  transition: border-color 0.5s;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.main-navigation li
+{
+  padding: 2rem;
+}
+.main
+{
+  .fas
+  {
+    padding: 4rem;
+  }
+}
+.information
+{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+h1
+{
+  font-size: 2.5rem;
+  padding: 10px;
+}
+}
+p
+{
+  font-size: 2rem;
+}
+h2
+{
+  text-align: center;
+}
+
+.button
+{
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  display: inline-block;
+  background-color: $color;
+  border-radius: 15px;
+}
+a:hover
+{
+  background-color: $primary-color;
+}
+.style 
+{
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+.design
+{
+  text-align: center;
+  h2
+  {
+    font-size: 1.8rem;
+    padding: 5px;
+  }
+    p 
+    {
+       font-size: 1.5rem;
+       padding: 5px;
+    }
+}
+.specials
+{
+  display: flex;
+  padding: 20px;
+  p
+  {
+    font-size: 20px;
+  }
+  .fab
+  {
+    font-size: 2.5rem;
+  }
+}
+h2
+{
+  font-size: 1.5rem;
+}
+.main
+{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  li
+  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+  }
+  ul
+  {
+    padding: 2rem;
+  }
+  .fab
+  {
+    font-size: 2rem;
+  }
+}
+.process
+{
+  display: flex;
+  h3
+  {
+    font-size: 1.5rem;
+  }
+  p
+  {
+    font-size: 20px;
+  }
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  .fab
+  {
+    font-size: 50px;
+    justify-content: space-evenly;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    line-height: 90px;
+    transition: all 1s;
+    padding: 3rem;
+  }
+  .process-icons:hover
+  {
+    height: 120px;
+    width: 120px;
+    line-height: 120px;
+    background-color: lightgreen;
+    padding: 1rem;
+}
+}
+
+.footer-content
+{
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+.social
+{
+  font-size: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+}
+.bg-light
+{
+  background: url(./images/resul-DbwYNr8RPbg-unsplash.jpg);
+}
+.bg-primary
+{
+  background-color: lightblue;
+}
+.bg-dark
+{
+  background-color: lightblue;
+  h4
+  {
+    padding: 5px;
+    margin: auto;
+  }
+  h2
+  {
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+  }
+  padding: 5px;
+}
+.award
+{
+  display: flex;
+  p
+  {
+    font-size: 20px;
+  }
+  margin: auto;
+  padding: 40px;
+}
+.bio
+{
+  display: flex;
+  img
+  {
+    width: 30%;
+    height: 280px;
+    margin: 1rem;
+  }
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.progress {
+  height: 20px;
+  background: #ccc;
+  margin: 0.3rem;
+  border-radius: 10px;
+}
+.progress div 
+{
+    height: 100%;
+    background: #ffbc00;
+    border-radius: 10px;
+}
+.about-logos
+{
+  img
+  {
+    width: 20%;
+    margin: auto;
+  }  
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+.row {
+  padding: 4px;
+  text-align: center;
+  margin: 1rem;
+  display: flex;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.box:hover
+{
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+.text-fields {
+  display: grid;
+  grid-template-areas: 'name email' 'subject phone' 'message message';
+  grid-gap: 1.2rem;
+  margin-bottom: 1.2rem;
+  padding: 80px;
+  height: 200px;
+}
+  .contact-info 
+  {
+  display: grid; 
+  grid-template-columns: repeat(3,1fr);
+  }
+
+#contact-c h1 {
+  text-align: center;
+  font-size: 4rem;
+ }
+ // Tablets & Smaller
+@media (max-width: 800px) 
+{
+  #home
+  {
+    .specials
+    {
+      .fas
+      {
+        padding: 1rem;
+      }
+      flex-direction: column;
+    }
+    .main
+    {
+      flex-direction: column;
+    }
+    .process
+    {
+      flex-direction: column;
+    }
+  }
+}
+@media(max-width:800px)
+{
+  #about
+  {
+    .award
+    {
+      flex-direction: column;
+    }
+     .progress
+     {
+       flex-direction: column;
+       margin-bottom: 20px;
+     }
+     .bio
+     {
+       flex-direction: column;
+       margin-bottom: 20px;
+     }
+   }
+  }
+  @media(max-width: 800px)
+  {
+    #work
+    {
+      .row
+      {
+        flex-direction: column;
+        padding: 1rem;
+      }
+    
+      img
+      {
+        width: 400px;
+        height: 250px;
+      }
+    }
+  }
+  @media(max-width: 800px)
+  {
+    #contact
+    {
+    .design
+    {
+      .contact-info
+      {
+        flex-direction: column;
+        padding: 5rem;
+        .column
+        {
+          text-align: center;
+          justify-content: space-evenly;
+        }
+        padding: 5rem;
+      }
+    }
+  }
+}
+
+
+
+ 

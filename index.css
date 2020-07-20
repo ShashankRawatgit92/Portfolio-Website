@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Dosis';
+}
+
+image {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.home {
+  background: url(./images/black-road-bike-leaning-on-red-blue-and-white-wing-graffiti-545008.jpg) center center/cover;
+  height: 100vh;
+}
+
+.main-navigation ul {
+  height: 80px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main-navigation ul a {
+  font-size: 25px;
+}
+
+a {
+  color: black;
+  -webkit-transition: border-color 0.5s;
+  transition: border-color 0.5s;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-navigation li {
+  padding: 2rem;
+}
+
+.main .fas {
+  padding: 4rem;
+}
+
+.information {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.information h1 {
+  font-size: 2.5rem;
+  padding: 10px;
+}
+
+p {
+  font-size: 2rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  display: inline-block;
+  background-color: white;
+  border-radius: 15px;
+}
+
+a:hover {
+  background-color: lightblue;
+}
+
+.style {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.design {
+  text-align: center;
+}
+
+.design h2 {
+  font-size: 1.8rem;
+  padding: 5px;
+}
+
+.design p {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.specials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+}
+
+.specials p {
+  font-size: 20px;
+}
+
+.specials .fab {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.main li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+
+.main ul {
+  padding: 2rem;
+}
+
+.main .fab {
+  font-size: 2rem;
+}
+
+.process {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.process h3 {
+  font-size: 1.5rem;
+}
+
+.process p {
+  font-size: 20px;
+}
+
+.process .fab {
+  font-size: 50px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  line-height: 90px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  padding: 3rem;
+}
+
+.process .process-icons:hover {
+  height: 120px;
+  width: 120px;
+  line-height: 120px;
+  background-color: lightgreen;
+  padding: 1rem;
+}
+
+.footer-content {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.footer-content .social {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.bg-light {
+  background: url(./images/resul-DbwYNr8RPbg-unsplash.jpg);
+}
+
+.bg-primary {
+  background-color: lightblue;
+}
+
+.bg-dark {
+  background-color: lightblue;
+  padding: 5px;
+}
+
+.bg-dark h4 {
+  padding: 5px;
+  margin: auto;
+}
+
+.bg-dark h2 {
+  font-size: 2rem;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.award {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding: 40px;
+}
+
+.award p {
+  font-size: 20px;
+}
+
+.bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bio img {
+  width: 30%;
+  height: 280px;
+  margin: 1rem;
+}
+
+.progress {
+  height: 20px;
+  background: #ccc;
+  margin: 0.3rem;
+  border-radius: 10px;
+}
+
+.progress div {
+  height: 100%;
+  background: #ffbc00;
+  border-radius: 10px;
+}
+
+.about-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-logos img {
+  width: 20%;
+  margin: auto;
+}
+
+.row {
+  padding: 4px;
+  text-align: center;
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  max-width: 25%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.box:hover {
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.text-fields {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'name email' 'subject phone' 'message message';
+  grid-gap: 1.2rem;
+  margin-bottom: 1.2rem;
+  padding: 80px;
+  height: 200px;
+}
+
+.contact-info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+#contact-c h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+@media (max-width: 800px) {
+  #home .specials {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #home .specials .fas {
+    padding: 1rem;
+  }
+  #home .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #home .process {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  #about .award {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #about .progress {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 20px;
+  }
+  #about .bio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  #work .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem;
+  }
+  #work img {
+    width: 400px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 800px) {
+  #contact .design .contact-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 5rem;
+    padding: 5rem;
+  }
+  #contact .design .contact-info .column {
+    text-align: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+/*# sourceMappingURL=index.css.map */
